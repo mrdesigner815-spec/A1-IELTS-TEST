@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mindproo | IELTS UKVI Speaking & A1 Listening Practice</title>
+<style>
+:root{--bg:#070b18;--card:#11182b;--card2:#17213a;--text:#f8fafc;--muted:#a9b6cf;--a:#7c3aed;--b:#06b6d4;--good:#22c55e;--bad:#ef4444;--warn:#f59e0b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 15% 5%,#26134c 0,transparent 30%),radial-gradient(circle at 90% 10%,#063d4b 0,transparent 28%),var(--bg);color:var(--text)}
+.wrap{width:min(1120px,94%);margin:auto;padding:28px 0 60px}.hidden{display:none!important}.card{background:rgba(17,24,43,.94);border:1px solid #2b3858;border-radius:24px;padding:24px;box-shadow:0 20px 60px #0005}.hero{min-height:460px;display:grid;align-content:center;position:relative;overflow:hidden}.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(4px);opacity:.35}.hero:before{width:260px;height:260px;background:#7c3aed;right:-90px;top:-80px}.hero:after{width:190px;height:190px;background:#06b6d4;left:-80px;bottom:-70px}
+.kicker{letter-spacing:.22em;text-transform:uppercase;font-weight:900;color:#67e8f9}.mega{font-size:clamp(46px,8vw,92px);line-height:.88;margin:18px 0;font-weight:1000}.mega span{background:linear-gradient(90deg,#c084fc,#22d3ee);-webkit-background-clip:text;color:transparent}.sub{font-size:20px;color:var(--muted);max-width:760px;line-height:1.55}.chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}.chip{background:#ffffff0d;border:1px solid #ffffff1a;border-radius:999px;padding:10px 14px;font-weight:800}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.gridMain{display:grid;grid-template-columns:1.35fr .65fr;gap:20px}label{font-weight:800}input,select{width:100%;font:inherit;color:var(--text);background:#0b1122;border:1px solid #34415f;border-radius:14px;padding:14px;margin-top:7px}button{font:inherit;font-weight:900;color:white;background:linear-gradient(90deg,var(--a),var(--b));border:0;border-radius:14px;padding:13px 18px;cursor:pointer;min-height:48px}button.secondary{background:#11182b;border:1px solid #3b4968}button:disabled{opacity:.45;cursor:not-allowed}.full{width:100%}.top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px}.scene{min-height:340px;background:linear-gradient(145deg,#14203b,#0b1020);border:1px solid #34415f;border-radius:24px;padding:20px;display:grid;place-items:center}.visual{width:100%;max-width:760px}.visual svg{width:100%;height:auto;display:block}.prompt{margin-top:14px;background:#ffffff08;border-radius:16px;padding:15px}.micbox{text-align:center;margin-top:16px;background:#ffffff08;border:1px solid #34415f;border-radius:22px;padding:22px}.mic{font-size:64px}.recording .mic{animation:pulse 1s infinite}@keyframes pulse{50%{transform:scale(1.15);filter:drop-shadow(0 0 16px #ef4444)}}.timer{font-size:38px;font-weight:1000;margin:10px}.status{color:var(--muted);line-height:1.5}.rubric h3{margin-top:0}.rubricItem{border-bottom:1px solid #2c3856;padding:12px 0}.scorebar{height:8px;background:#28334c;border-radius:99px;overflow:hidden;margin-top:7px}.scorebar i{display:block;height:100%;background:linear-gradient(90deg,#7c3aed,#06b6d4)}
+.feedback{margin-top:14px;padding:16px;border-radius:16px;background:#0b1122;border:1px solid #34415f}.nav{display:flex;justify-content:space-between;gap:10px;margin-top:18px}.listenBox{max-width:760px;margin:auto}.choices{display:grid;gap:10px;margin-top:18px}.choice{display:block;width:100%;text-align:left;background:#131c31;border:1px solid #34415f}.choice.good{background:#12321e;border-color:#22c55e}.choice.bad{background:#39171d;border-color:#ef4444}.answer{margin-top:14px;padding:14px;border-radius:14px;background:#102b1a;border:1px solid #22c55e;color:#bbf7d0}.resultGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:20px 0}.metric{text-align:center;background:#ffffff08;border-radius:18px;padding:20px}.metric strong{display:block;font-size:38px}.certificate{background:#fff;color:#101827;border:12px double #273a67;border-radius:6px;padding:38px;text-align:center;max-width:900px;margin:20px auto}.certificate h1{font-family:Georgia,serif;font-size:46px;margin:8px}.certificate .brand{font-size:25px;font-weight:1000;letter-spacing:.12em}.certificate .student{font-family:Georgia,serif;font-size:38px;margin:18px}.certGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:25px 0}.certGrid div{border:1px solid #ccd3df;padding:14px}.small{font-size:12px;color:#64748b}.warning{color:#fbbf24;font-size:13px;margin-top:10px}
+@media(max-width:800px){.grid2,.gridMain,.resultGrid,.certGrid{grid-template-columns:1fr}.mega{font-size:50px}.top{align-items:flex-start;flex-direction:column}.scene{min-height:260px}}
+@media print{body{background:#fff}.wrap>*:not(#results){display:none!important}#results{display:block!important}.resultHead,.resultGrid,.finalFeedback,.printButtons{display:none!important}.certificate{border-color:#111;box-shadow:none;margin:0}.wrap{width:100%;padding:0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<section id="landing" class="card hero">
+  <div class="kicker">🎙️ Mindproo English Challenge</div>
+  <div class="mega">SEE IT.<br><span>SPEAK IT.</span><br>OWN IT. 🚀</div>
+  <p class="sub">Interactive IELTS UKVI-style speaking practice + A1 listening. Complete 15 action-rich visual speaking missions, then 15 listening multiple-choice challenges. Your browser can record your voice and, where speech recognition is supported, provide automated practice feedback.</p>
+  <div class="chips"><span class="chip">🖼️ 15 Speaking Scenes</span><span class="chip">🎙️ Microphone Recording</span><span class="chip">🤖 Automated Feedback</span><span class="chip">🎧 15 Listening MCQs</span><span class="chip">🏆 Result Certificate</span></div>
+  <div class="grid2">
+    <label>Student's Name<input id="studentName" placeholder="Enter full name" autocomplete="name"></label>
+    <label>Level<select id="studentLevel"><option value="">Choose level</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select></label>
+  </div>
+  <button id="startBtn" class="full" style="margin-top:18px">🔥 ENTER THE MINDPROO ARENA</button>
+  <div id="startMsg" class="warning"></div>
+</section>
+
+<section id="speaking" class="hidden">
+ <div class="top"><div><b style="font-size:22px">Mindproo</b><div id="studentTag" class="status"></div></div><b id="sProgress"></b></div>
+ <div class="gridMain">
+  <div>
+   <div class="card">
+    <div class="kicker">AI Picture Description Mission</div><h2 id="sceneTitle"></h2>
+    <div id="scene" class="scene"></div>
+    <div class="prompt"><b>🎯 Speak naturally for up to 60 seconds.</b><br>Describe who you can see, where they are, what everyone is doing, important details, and what may happen next.</div>
+    <div id="micBox" class="micbox"><div class="mic">🎙️</div><h3>Open your microphone and speak</h3><div class="timer" id="timer">01:00</div><button id="recordBtn">🎙️ ALLOW MICROPHONE & RECORD</button><button id="stopBtn" class="secondary hidden">⏹ STOP & EVALUATE</button><div id="micStatus" class="status" style="margin-top:12px">Your browser will ask for microphone permission.</div></div>
+    <div id="sFeedback" class="feedback hidden"></div>
+    <div class="nav"><button id="prevS" class="secondary">← Previous</button><button id="nextS" disabled>Next Mission →</button></div>
+   </div>
+  </div>
+  <aside class="card rubric"><h3>🏆 Speaking Criteria</h3>
+   <div class="rubricItem"><b>Fluency & Coherence — 25</b><div class="status">Continuous speech, connected ideas, useful linking words.</div></div>
+   <div class="rubricItem"><b>Vocabulary — 20</b><div class="status">Suitable and varied words for people, actions, objects and places.</div></div>
+   <div class="rubricItem"><b>Grammar — 20</b><div class="status">Clear sentence patterns and appropriate verb forms.</div></div>
+   <div class="rubricItem"><b>Pronunciation / Clarity — 20</b><div class="status">Speech recognition success and understandable delivery are used as practice indicators.</div></div>
+   <div class="rubricItem"><b>Task Development — 15</b><div class="status">Covers people, actions, setting, details and prediction.</div></div>
+   <p class="warning">Practice assessment only. It is not an official IELTS/UKVI band score or examiner assessment.</p>
+  </aside>
+ </div>
+</section>
+
+<section id="listening" class="hidden">
+ <div class="top"><div><b style="font-size:22px">Mindproo</b><div id="studentTag2" class="status"></div></div><b id="lProgress"></b></div>
+ <div class="card listenBox"><div class="kicker">A1 Listening Challenge</div><h2 id="lTitle"></h2><p class="status">Press Play. Listen carefully and choose A, B or C.</p>
+ <button id="playBtn">▶ PLAY LISTENING</button><div id="lQuestion" style="font-size:22px;font-weight:900;margin-top:24px"></div><div id="choices" class="choices"></div><div id="correctAnswer" class="answer hidden"></div>
+ <div class="nav"><button id="prevL" class="secondary">← Previous</button><button id="nextL" disabled>Next Question →</button></div></div>
+</section>
+
+<section id="results" class="hidden">
+ <div class="resultHead card"><div class="kicker">Mission Complete</div><h1>🏆 Mindproo Final Result</h1><div id="resultStudent"></div>
+ <div class="resultGrid"><div class="metric"><span>Speaking</span><strong id="sFinal">0</strong><small>/ 100</small></div><div class="metric"><span>Listening</span><strong id="lFinal">0</strong><small>/ 15</small></div><div class="metric"><span>Overall</span><strong id="overall">0%</strong></div></div>
+ <div id="finalFeedback" class="feedback finalFeedback"></div></div>
+ <div id="certificate" class="certificate"><div class="brand">MINDPROO</div><div class="small">Certificate of Completion</div><h1>IELTS UKVI-Style Speaking<br>& A1 Listening Practice</h1><p>This certificate is presented to</p><div id="certName" class="student"></div><p>for completing the Mindproo interactive English practice assessment.</p><div class="certGrid"><div><b>Level</b><br><span id="certLevel"></span></div><div><b>Speaking</b><br><span id="certSpeaking"></span>/100</div><div><b>Listening</b><br><span id="certListening"></span>/15</div></div><p><b>Overall Result:</b> <span id="certOverall"></span></p><p><b>Date:</b> <span id="certDate"></span></p><p class="small">Automated practice certificate — not an official IELTS, IELTS for UKVI, British Council, IDP, Cambridge, or UK government certificate.</p></div>
+ <div class="printButtons" style="text-align:center"><button id="printCert">🖨️ PRINT / SAVE CERTIFICATE AS PDF</button><button id="restart" class="secondary">↻ Restart Test</button></div>
+</section>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const scenes=[
+["City Park Rush","park"],["School Morning","school"],["Family Kitchen","kitchen"],["Supermarket Mission","market"],["Rainy Street","rain"],["Beach Adventure","beach"],["Train Station","station"],["Sports Centre","sport"],["Birthday Party","party"],["Library Study","library"],["Airport Journey","airport"],["Busy Farm","farm"],["Café Time","cafe"],["Playground Action","play"],["Family Picnic","picnic"]
+];
+const sceneData={
+park:["#7dd3fc","🌳","🚲","⚽","🐕","🏃","🧍"],school:["#93c5fd","🏫","🚌","🎒","📚","🏃","👨‍🏫"],kitchen:["#fed7aa","🍳","🥕","🥣","🍞","🍽️","👨‍🍳"],market:["#bfdbfe","🛒","🍎","🥛","🥫","📝","👥"],rain:["#94a3b8","☔","🚌","🚲","💦","🏃","🚦"],beach:["#fde68a","🏖️","🏊","🏰","⚽","🏃","☀️"],station:["#cbd5e1","🚆","🧳","🎫","🕐","🚶","👥"],sport:["#bbf7d0","🏀","🏃","📣","💧","🏅","🤸"],party:["#fbcfe8","🎂","🎁","🎈","🥤","👏","🎉"],library:["#ddd6fe","📚","📖","✏️","💻","🤫","🧍"],airport:["#bae6fd","✈️","🧳","🛫","📺","🚶","👨‍👩‍👦"],farm:["#d9f99d","🚜","🐄","🐔","🥚","🌾","🧑‍🌾"],cafe:["#fed7aa","☕","🥪","👨‍🍳","💳","🗣️","🥤"],play:["#a7f3d0","🛝","⚽","🏃","🎠","👀","🤸"],picnic:["#bef264","🧺","🥪","🐕","🐦","🧃","⚽"]};
+const listening=[
+["I get up at seven o'clock every morning.","What time does the speaker get up?",["Six o'clock","Seven o'clock","Eight o'clock"],1],
+["My sister has a small black cat called Luna.","What pet does the sister have?",["A dog","A cat","A bird"],1],
+["Please put the blue book on the table.","What colour is the book?",["Blue","Red","Green"],0],
+["Tom goes to school by bus every day.","How does Tom go to school?",["By car","By bus","On foot"],1],
+["I would like an apple and some water, please.","What fruit does the speaker want?",["An orange","A banana","An apple"],2],
+["The supermarket closes at nine o'clock tonight.","When does the supermarket close?",["At seven","At eight","At nine"],2],
+["Anna is wearing a yellow dress today.","What is Anna wearing?",["A yellow dress","A blue shirt","A red coat"],0],
+["We play football in the park on Saturday.","Where do they play football?",["At school","In the park","At home"],1],
+["My father is cooking dinner in the kitchen.","What is the father doing?",["Reading","Cooking","Sleeping"],1],
+["The train to London leaves from platform three.","Which platform does the train leave from?",["Platform one","Platform two","Platform three"],2],
+["It is cold today, so take your coat.","What should the listener take?",["A coat","A book","A bag"],0],
+["Sara has two brothers and one sister.","How many brothers does Sara have?",["One","Two","Three"],1],
+["I drink milk with my breakfast.","What does the speaker drink?",["Juice","Tea","Milk"],2],
+["The lesson starts at ten thirty.","When does the lesson start?",["Ten o'clock","Ten thirty","Eleven thirty"],1],
+["Meet me outside the library after school.","Where should they meet?",["Outside the library","At the café","At the bus stop"],0]
+];
+let student="",level="",si=0,li=0,scores=Array(15).fill(null),lAnswers=Array(15).fill(null),timer=null,seconds=60,recorder=null,chunks=[],recognition=null,transcript="",speechStart=0;
+function makeScene(key){
+ const a=sceneData[key], icons=a.slice(1);
+ return `<div class="visual"><svg viewBox="0 0 800 390" role="img" aria-label="Action-rich ${key} scene"><rect width="800" height="390" rx="28" fill="${a[0]}"/><rect y="275" width="800" height="115" fill="#334155" opacity=".28"/><circle cx="690" cy="70" r="35" fill="#fde047" opacity=".9"/><text x="85" y="135" font-size="70">${icons[0]}</text><text x="250" y="125" font-size="70">${icons[1]}</text><text x="430" y="140" font-size="70">${icons[2]}</text><text x="620" y="135" font-size="70">${icons[3]}</text><text x="175" y="285" font-size="76">${icons[4]}</text><text x="505" y="285" font-size="76">${icons[5]}</text><path d="M90 210 C220 170 300 245 405 205 S620 170 720 225" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="12 12" opacity=".65"/><text x="400" y="360" text-anchor="middle" font-size="18" fill="#fff">Describe the people, actions, objects, place and what may happen next.</text></svg></div>`;
+}
+function showSpeaking(){
+ $("landing").classList.add("hidden");$("speaking").classList.remove("hidden");$("studentTag").textContent=`${student} • Level ${level}`;renderSpeaking();
+}
+function renderSpeaking(){
+ stopAll();$("sProgress").textContent=`Speaking ${si+1}/15`;$("sceneTitle").textContent=`${si+1}. ${scenes[si][0]}`;$("scene").innerHTML=makeScene(scenes[si][1]);$("prevS").disabled=si===0;$("nextS").disabled=scores[si]===null;$("nextS").textContent=si===14?"Continue to Listening →":"Next Mission →";$("sFeedback").classList.add("hidden");$("micStatus").textContent=scores[si]===null?"Your browser will ask for microphone permission.":`Saved speaking mark: ${scores[si]}/100`;$("timer").textContent="01:00";
+}
+function stopAll(){
+ if(timer){clearInterval(timer);timer=null}seconds=60;
+ try{if(recorder&&recorder.state!=="inactive")recorder.stop()}catch(e){}
+ try{if(recognition)recognition.stop()}catch(e){}
+ $("micBox").classList.remove("recording");$("recordBtn").classList.remove("hidden");$("stopBtn").classList.add("hidden");
+}
+function startClock(){
+ seconds=60;$("timer").textContent="01:00";timer=setInterval(()=>{seconds--;$("timer").textContent=`00:${String(Math.max(0,seconds)).padStart(2,"0")}`;if(seconds<=0){finishRecording()}},1000);
+}
+async function beginRecording(){
+ if(!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia){$("micStatus").textContent="Microphone recording is not supported here. Open this HTML in Chrome or Edge using HTTPS/localhost and allow microphone access.";return}
+ try{
+  const stream=await navigator.mediaDevices.getUserMedia({audio:true});chunks=[];transcript="";speechStart=Date.now();
+  recorder=new MediaRecorder(stream);recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};recorder.start();
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(SR){recognition=new SR();recognition.lang="en-GB";recognition.continuous=true;recognition.interimResults=true;recognition.onresult=e=>{let t="";for(let j=0;j<e.results.length;j++)t+=e.results[j][0].transcript+" ";transcript=t.trim()};try{recognition.start()}catch(e){}}
+  $("micBox").classList.add("recording");$("recordBtn").classList.add("hidden");$("stopBtn").classList.remove("hidden");$("micStatus").textContent=SR?"Recording + speech analysis active. Speak now!":"Recording active. This browser cannot transcribe speech, so feedback will use recording duration and task-completion indicators.";startClock();
+ }catch(e){$("micStatus").textContent="Microphone permission was not granted. Please allow microphone access in your browser settings and try again."}
+}
+function finishRecording(){
+ if(timer){clearInterval(timer);timer=null}let duration=Math.max(1,Math.round((Date.now()-speechStart)/1000));
+ try{if(recorder&&recorder.state!=="inactive"){recorder.stop();recorder.stream.getTracks().forEach(t=>t.stop())}}catch(e){}
+ try{if(recognition)recognition.stop()}catch(e){}
+ $("micBox").classList.remove("recording");$("recordBtn").classList.remove("hidden");$("stopBtn").classList.add("hidden");
+ setTimeout(()=>evaluateSpeech(duration),450);
+}
+function evaluateSpeech(duration){
+ const words=transcript?transcript.trim().split(/\s+/).filter(Boolean):[];
+ const txt=transcript.toLowerCase();const unique=new Set(words.map(w=>w.toLowerCase().replace(/[^a-z]/g,""))).size;
+ const links=(txt.match(/\b(and|but|because|while|then|also|so|after|before)\b/g)||[]).length;
+ const actions=(txt.match(/\b(is|are|walking|running|playing|holding|wearing|sitting|standing|talking|looking|eating|drinking|riding|carrying|waiting|working|moving|cooking|reading)\b/g)||[]).length;
+ let flu,voc,gram,pron,task;
+ if(words.length){
+  const wpm=words.length/(duration/60);flu=Math.min(25,Math.round(10+Math.min(8,links*1.5)+Math.min(7,words.length/12)));
+  voc=Math.min(20,Math.round(8+Math.min(12,unique/5)));gram=Math.min(20,Math.round(9+Math.min(11,(txt.match(/\b(is|are|was|were|has|have|will|can)\b/g)||[]).length*1.5)));
+  pron=Math.min(20,Math.round(10+Math.min(10,words.length/10)));task=Math.min(15,Math.round(6+Math.min(9,actions*1.5)));
+ }else{flu=Math.min(25,8+Math.round(Math.min(duration,60)/5));voc=8;gram=8;pron=Math.min(20,7+Math.round(Math.min(duration,60)/6));task=7}
+ const total=Math.min(100,flu+voc+gram+pron+task);scores[si]=total;$("nextS").disabled=false;
+ let note=words.length?`Speech recognition detected ${words.length} words. Keep connecting ideas and use precise action verbs, location phrases and a short prediction.`:`Your voice was recorded for about ${duration} seconds, but no transcript was available. The mark is therefore limited and cannot reliably judge vocabulary, grammar or pronunciation.`;
+ $("sFeedback").innerHTML=`<b>🤖 Automated Practice Feedback — ${total}/100</b><div class="rubricItem">Fluency & Coherence: <b>${flu}/25</b><div class="scorebar"><i style="width:${flu/25*100}%"></i></div></div><div class="rubricItem">Vocabulary: <b>${voc}/20</b><div class="scorebar"><i style="width:${voc/20*100}%"></i></div></div><div class="rubricItem">Grammar: <b>${gram}/20</b><div class="scorebar"><i style="width:${gram/20*100}%"></i></div></div><div class="rubricItem">Pronunciation / clarity indicator: <b>${pron}/20</b><div class="scorebar"><i style="width:${pron/20*100}%"></i></div></div><div class="rubricItem">Task Development: <b>${task}/15</b><div class="scorebar"><i style="width:${task/15*100}%"></i></div></div><p class="status">${note}</p><p class="warning">Automated practice feedback is approximate and is not an official IELTS band assessment.</p>`;$("sFeedback").classList.remove("hidden");$("micStatus").textContent="Evaluation complete. You can record again or continue.";
+}
+function beginListening(){
+ stopAll();$("speaking").classList.add("hidden");$("listening").classList.remove("hidden");$("studentTag2").textContent=`${student} • Level ${level}`;li=0;renderListening();
+}
+function renderListening(){
+ speechSynthesis.cancel();const q=listening[li];$("lProgress").textContent=`Listening ${li+1}/15`;$("lTitle").textContent=`Question ${li+1}`;$("lQuestion").textContent=q[1];$("choices").innerHTML=q[2].map((c,j)=>`<button class="choice ${lAnswers[li]!==null?(j===q[3]?"good":j===lAnswers[li]?"bad":""):""}" data-i="${j}" ${lAnswers[li]!==null?"disabled":""}><b>${String.fromCharCode(65+j)}.</b> ${c}</button>`).join("");$("correctAnswer").classList.toggle("hidden",lAnswers[li]===null);if(lAnswers[li]!==null)$("correctAnswer").innerHTML=`✓ Correct answer: <b>${String.fromCharCode(65+q[3])}. ${q[2][q[3]]}</b>${lAnswers[li]===q[3]?" — Your answer is correct.":" — Your answer was incorrect."}`;$("prevL").disabled=li===0;$("nextL").disabled=lAnswers[li]===null;$("nextL").textContent=li===14?"Finish & Get Certificate 🏆":"Next Question →";document.querySelectorAll(".choice").forEach(b=>b.addEventListener("click",()=>answerListening(+b.dataset.i)));
+}
+function answerListening(j){lAnswers[li]=j;renderListening()}
+function playListening(){const q=listening[li][0];if(!("speechSynthesis"in window)){alert("Speech playback is unavailable in this browser.");return}speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(q);u.lang="en-GB";u.rate=.82;u.pitch=1;speechSynthesis.speak(u)}
+function finishTest(){
+ $("listening").classList.add("hidden");$("results").classList.remove("hidden");const sAvg=Math.round(scores.reduce((a,b)=>a+(b||0),0)/15);const lScore=lAnswers.reduce((n,a,j)=>n+(a===listening[j][3]?1:0),0);const overall=Math.round((sAvg+(lScore/15*100))/2);
+ $("resultStudent").textContent=`${student} • Level ${level}`;$("sFinal").textContent=sAvg;$("lFinal").textContent=lScore;$("overall").textContent=overall+"%";
+ let fb=overall>=85?"Excellent overall practice performance. Keep extending answers with examples and precise vocabulary.":overall>=70?"Strong progress. Work on longer connected speaking answers and review any missed listening details.":overall>=50?"Developing well. Practise action vocabulary, complete sentences and careful listening for key words.":"More practice will help. Focus on short clear sentences, common action verbs and listening for names, times, places and numbers.";
+ $("finalFeedback").innerHTML=`<b>AI Practice Feedback</b><p>${fb}</p><p class="warning">Speaking scores are automated practice estimates. They must not be presented as official IELTS/UKVI scores.</p>`;
+ $("certName").textContent=student;$("certLevel").textContent=level;$("certSpeaking").textContent=sAvg;$("certListening").textContent=lScore;$("certOverall").textContent=overall+"%";$("certDate").textContent=new Date().toLocaleDateString("en-GB",{day:"numeric",month:"long",year:"numeric"});
+}
+$("startBtn").onclick=()=>{student=$("studentName").value.trim();level=$("studentLevel").value;if(!student||!level){$("startMsg").textContent="Please enter the student's name and choose a level.";return}$("startMsg").textContent="";showSpeaking()};
+$("recordBtn").onclick=beginRecording;$("stopBtn").onclick=finishRecording;$("prevS").onclick=()=>{if(si>0){si--;renderSpeaking()}};$("nextS").onclick=()=>{if(si<14){si++;renderSpeaking()}else beginListening()};
+$("playBtn").onclick=playListening;$("prevL").onclick=()=>{if(li>0){li--;renderListening()}};$("nextL").onclick=()=>{if(li<14){li++;renderListening()}else finishTest()};
+$("printCert").onclick=()=>window.print();$("restart").onclick=()=>location.reload();
+</script>
+</body></html>
